@@ -14,16 +14,35 @@
 <body>
 
     <!-- NavBar -->
-    <div class="container-fluid">
+ <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+            <div class="container">
                 <a class="navbar-brand" href="#">
-
+                   
                     <i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a>
 
                 <div class="dropdown">
-                    <button type="button" class="btn btn-success " data-toggle="modal" data-target="#exampleModal">Crear
-                        un nuevo post</button>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                        Nuevo Publicacion
+                    </button>
+                        <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <textarea name="" id="" cols="63" rows="5"></textarea>
+                                    <button type="button" class="btn btn-light btn-outline-secondary"><i class="fa fa-camera" aria-hidden="true"></i></button>
+                                    <button type="button" class="btn btn-light btn-outline-secondary"><i class="fa fa-map-marker" aria-hidden="true"></i></button>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-light btn-outline-secondary" data-dismiss="modal">Cancelar</button>
+                                    <button type="button" class="btn btn-success">Publicar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <i class="fa fa-cog btn btn-secondary dropdown-toggle" aria-hidden="true" id="dropdownMenuButton"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> </i>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -42,6 +61,7 @@
         <a href="index-feed.html" class="nav-item nav-link"><i class="fa fa-stop"></i><a>
     </nav>
     <!-- final de los botones -->
+    <!-- Publicaciones -->
     <div class="container">
         <div class="row col-12">
 
